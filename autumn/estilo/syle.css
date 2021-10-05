@@ -1,0 +1,75 @@
+@font-face {
+    font-family:'love' ;
+    src: url('../fuentes/Lovebird.ttf');
+}
+@font-face {
+    font-family:'regular' ;
+    src: url('../fuentes/QUIGLEYW.TTF');
+}
+body {  
+    background-color: #f0653b;
+    padding: 0.5% 0.5%;
+}
+#fondo {
+    width: 98%;
+    height: 97%;
+    margin: auto;
+    background-image: url('../imagenes/wallpaper2.jpg');
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#container {
+    position: relative;
+    background-position: center;
+    border-radius: 50px;
+    max-width: 700px;
+    margin: auto;
+    background-color: rgba(148, 71, 8, 0.301);
+}
+h1 {
+    color: rgb(247, 9, 9);
+    text-align: center;
+    font-family:'love';
+    font-size:4em;
+    letter-spacing:4px;
+    text-shadow: 2px 2px black;
+    padding-top: 5%;
+}
+p {
+    color:white;
+    font-size: 2em;
+    text-align: left;
+    font-family:'regular';
+    padding-left: 10%;
+}
+h3 {
+    color: oldlace;
+    text-align: right;
+    font-size: 2em;
+    padding-right: 5%;
+    text-shadow: 2px 2px black;
+}
+@media only screen and (max-width:650px) {
+    #fondo {
+        width: 40%; 
+        height: 30%;
+        margin: auto;}
+    #container {width: 50%; max-width: 500px;}
+    #container h1 {font-size: 1.5em;}
+    #container p {font-size: 0.5em;}
+    #container h3 {font-size: 0.5em;}
+}
+@media only screen and (max-width:650px) {
+    #fondo {
+        width: 95%;
+        height: 70%; 
+        margin: auto;
+        padding-top: 35%;
+    }
+    #container {width: 75%;}
+    #container h1 {font-size: 2em;}
+    #container p {font-size: 1em;}
+    #container h3 {font-size: 1em;}
+}
