@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HALLOWEEN</title>
+    <link rel="shortcut icon" href="imagenes/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="estilo/estilo.css">
+    <script src="javascripts/funciones.js"></script>
+</head>
+<body onload="sonar('nana')">
+
+    <div id="container">        
+        <audio id="nana" controls> 
+            <source src="sonidos/lullaby.mp3" type="audio/mpeg">
+        </audio>
+        <audio id="grito">
+            <source src="sonidos/grito.mp3" type="audio/mpeg">
+        </audio>
+        <audio id="arañaa">
+            <source src="sonidos/000205193_prev.mp3" type="audio/mpeg">
+        </audio>
+        <audio id="fantasmaa">
+            <source src="sonidos/Scary_Sound-Mark_DiAngelo-1101865305.mp3" type="audio/mpeg">
+        </audio>
+        <audio id="brujaa">
+            <source src="sonidos/carcajada-una-bruja.mp3" type="audio/mpeg">
+        </audio>
+        <audio id="calaveraa">
+            <source src="sonidos/Hl2_Rebel-Ragdoll485-573931361.mp3" type="audio/mpeg">
+        </audio>
+        <audio id="murcielagoo">
+        <source src="sonidos/Bats_in_Cave-Mike_Koenig-1902240953.mp3" type="audio/mpeg">
+        </audio>
+
+        <p id="titulo">Terrorífica FIESTA de Halloween</p>
+        <p id="hora"> ¡Pasate! &nbsp; <small>Lugar: Cartama  Hora: 22:00</small> ¡Ven Disfrazado!</p>        
+        <pre id="aviso">
+            Aviso: 
+            ¡¡¡No 
+            molestes 
+            a las 
+            calabazas!!!</pre>
+
+        <img id = "calabacis1" src="imagenes/Imagen-animada-Calabaza-07.gif" ;>
+        <img id = "calabacis2" src="imagenes/Imagen-animada-Calabaza-07.gif" ;>
+        <img id = "calabacis3" src="imagenes/Imagen-animada-Calabaza-07.gif" ;>
+        <img id = "calabacis4" src="imagenes/Imagen-animada-Calabaza-07.gif" ;>
+        <img id = "calabacis5" src="imagenes/Imagen-animada-Calabaza-07.gif" ;>        
+
+        <div id="calabacis1" onclick="mostrar('fantasma');sonar('fantasmaa');"></div>
+        <img id ="fantasma" src="imagenes/fantasma.gif" height="150" onclick="ocultar('fantasma');parar('fantasmaa');">
+        
+        <div id ="calabacis2" onclick="mostrar('araña');sonar('arañaa');"></div>
+        <img id ="araña" src="imagenes/araña.gif" height="200" onclick="ocultar('araña');parar('arañaa');"> 
+        
+        <div id = "calabacis3" onclick="mostrar('esqueleto');sonar('calaveraa')"></div>
+        <img id ="esqueleto" src="imagenes/esqueleto.gif" height="250" onclick="ocultar('esqueleto');parar('calaveraa')">
+
+        <div id = "calabacis4" onclick="mostrar('bruja1');sonar('brujaa');"></div>
+        <img id = "bruja1" src="imagenes/bruja1.png" height="350" onclick ="ocultar('bruja1');parar('brujaa');">
+    
+        <div id = "calabacis5" onclick="mostrar('calavera');sonar('grito');"></div>
+        <img id = "calavera" src="imagenes/ojosalton1.png" height="900" onclick ="ocultar('calavera');parar('grito');">
+
+        <img id = "murcielagos" src="imagenes/bat_PNG35.png" height="200" onclick = "sonar('murcielagoo');">
+
+        <img id = "brujaolla" src="imagenes/brujaolla.png" height="150";>
+        <img id = "murcielago" src="imagenes/murcielago.png" height="175">        
+        <img id = "bruja2" src="imagenes/La bruja de Escazú (3).png" height="100">
+        <img id = "bailon" src="imagenes/tenor.gif" height="100">
+        <img id = "bailon2" src="imagenes/tenor.gif" height="100">
+        <img id = "gato" src="imagenes/gatorieee.jpg" height="100">
+        
+
+    
+    </img>
+</body>
+</html>

@@ -1,0 +1,164 @@
+@font-face {
+    font-family: 'sangre';
+    src: url('../fuentes/blooods_.ttf');
+}
+@font-face {
+    font-family: 'lobo';
+    src: url('../fuentes/Lycanthrope.ttf');
+}
+@font-face {    
+    font-family: 'grunt';
+    src: url('../fuentes/GRUNTREAPER.ttf')
+}
+body {background-color: black;}
+#container {
+    width:1730px;
+    height:750px;
+    background-image: url('../imagenes/wallpaper10.jpg');
+    margin: auto;
+    position: relative;
+    background-size:initial;
+    background-repeat: no-repeat;    
+}
+#titulo {
+    font-family:'sangre';            
+    font-size:5em;                       
+    color:crimson;
+    text-decoration-color: crimson;
+    color:red;
+    background-color: black;
+    text-shadow: 5px 5px 5px orange,
+                -5px -5px 5px orange;
+    position:absolute;
+    top:575px;
+    left:100px;
+}
+#aviso {
+    font-family:'grunt';
+    font-size: 3em;
+    text-align: left;
+    top: 50px;
+    left: -275px;
+    color: rgb(240, 94, 10);
+    position:absolute;
+}
+#hora {
+    font-family: 'lobo';
+    font-size: 3em;
+    letter-spacing:2px;
+    color: rgb(240, 94, 10);
+    position:absolute;
+    top:725px;
+    left:300px;
+}
+
+/* añado dibujos*/
+#brujaolla {position: absolute;
+    top: 450px;
+    left: 1000px;    
+}
+#bruja2 {position: absolute;
+    top:230px;
+    left:1600px;
+}
+#murcielago {position: absolute;
+    top: 10px;
+    left: 1500px;    
+}
+#murcielagos {position: absolute;
+    top: 135px;
+    left: 1035px;
+    cursor: pointer;  
+}
+#bailon {position: absolute;
+    top: 665px;
+    left: 17px;    
+}
+#bailon2 {position: absolute;
+    top: 665px;
+    left: 1630px;    
+}
+#gato {position: absolute;
+    top: 550px;
+    left: 1400px;    
+}
+/* animaciones y su posicion*/
+#calabacis1 {
+            width:40px;
+            height:40px;
+            position:absolute;
+            top: 560px;
+            left:215px;
+            cursor:crosshair;
+}
+#fantasma { position:absolute;
+            top:490px;
+            left:725px;
+            visibility: hidden;
+            cursor: crosshair;
+}
+
+#calabacis2 {
+            width: 40px;
+            height: 40px;
+            position: absolute;
+            top: 545px;
+            left: 305px;
+            cursor: crosshair;
+}
+#araña {position:absolute;
+        top: 225px;
+        left:300px;
+        visibility: hidden;
+        cursor: crosshair;
+}
+
+#calabacis3 {
+    width:40px;
+    height:40px;
+    position:absolute;
+    top: 520px;
+    left: 380px;
+    cursor: crosshair;
+}
+
+#esqueleto {position: absolute;
+    top:300px;
+    left:1250px;
+    visibility: hidden;
+    cursor: crosshair;
+}
+
+#calabacis4 {
+    width:40px;
+    height:40px;
+    position:absolute;
+    top: 515px;
+    left: 460px;
+    cursor: crosshair;
+}
+#bruja1 {position: absolute;
+    top:30px;
+    left:650px;
+    visibility: hidden;
+    cursor: crosshair;
+}
+
+#calabacis5 {
+    width:40px;
+    height:40px;
+    position:absolute;
+    top: 510px;
+    left: 550px;
+    cursor: crosshair;
+}
+#calavera {position: absolute;
+    top:10px;
+    left:200px;
+    width: 1200px;
+    height: 800px;
+    visibility: hidden;
+    cursor: pointer;
+}
+
+/*border:1px solid white;*/
